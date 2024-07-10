@@ -1,0 +1,19 @@
+1
+створюємо віртуальне середовище
+python -m venv venv
+
+2
+Активуємо віртуальне середовище
+venv\Scripts\activate
+
+3
+pip install django
+
+4
+django-admin startproject bigkorp
+
+
+----------------------------------------
+https://youtu.be/jaeTOpCmbLA
+
+09 : 37
