@@ -34,6 +34,12 @@ login = admin
 email = umanproger@ukr.net
 password = admin
 
+11
+
+bigshop -> admin.py
+
+
+
 
 
 ----------------------------------------
