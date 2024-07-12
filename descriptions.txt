@@ -38,6 +38,8 @@ password = admin
 
 bigshop -> admin.py
 
+12
+views.py
 
 
 
@@ -45,4 +47,4 @@ bigshop -> admin.py
 ----------------------------------------
 https://youtu.be/jaeTOpCmbLA
 
-35 : 42
+45 : 57
