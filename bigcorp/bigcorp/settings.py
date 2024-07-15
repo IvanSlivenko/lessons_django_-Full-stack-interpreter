@@ -31,6 +31,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    #Custome Context Processors    
+    'shop/context_processors.categories',
 ]
 
 ROOT_URLCONF = 'bigcorp.urls'
@@ -78,16 +81,30 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+
+# USE_I18N = True
+
+# USE_TZ = True
+
+LANGUAGE_CODE = 'uk'
+
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
-
+USE_L10N = True
 USE_TZ = True
 
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'static'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
